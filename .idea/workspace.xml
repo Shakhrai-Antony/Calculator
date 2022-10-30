@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsconfig.paths.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/CalculatorCC.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/display/DisplayCC.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/history/History.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/KeypadCC.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/display/styles.display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/history/styles.history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/styles.keypad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/styles.header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ccPages/home/HomeСС.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/SettingsCC.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/fcPages/home/styles.home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/styles.settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/App.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/App.e2e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/display/Display.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/display/Display.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/display/display.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/errorBoundary/ErrorBoundary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/errorBoundary/ErrorBoundary.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/history/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/history/History.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/keypad/Keypad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/calculator/Calculator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/keypad/keypad.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/Settings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/settings/settings.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/calculations/Calculations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/calculations/Calculations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer/CalculatorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/state/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/state/State.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="2GLGvKECnc5EWylSa87n2c2vgeL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/ccComponents" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_calculator\src\components\ccComponents" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_calculator\src\components" />
+      <recent name="D:\my_calculator\src\components\fcComponents" />
+      <recent name="D:\my_calculator\src\pages\fcPages" />
+      <recent name="D:\my_calculator\src\store" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="" />
+      <created>1666160679493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666160679493</updated>
+      <workItem from="1666160691189" duration="133046000" />
+      <workItem from="1666696306628" duration="1182000" />
+      <workItem from="1666697494973" duration="1245000" />
+      <workItem from="1666698752489" duration="30593000" />
+      <workItem from="1666773138250" duration="1152000" />
+      <workItem from="1666774305178" duration="1357000" />
+      <workItem from="1666775678449" duration="199000" />
+      <workItem from="1666775882766" duration="159000" />
+      <workItem from="1666776051085" duration="569000" />
+      <workItem from="1666776627054" duration="1042000" />
+      <workItem from="1666778159207" duration="9621000" />
+      <workItem from="1666791690409" duration="1722000" />
+      <workItem from="1666794598138" duration="123000" />
+      <workItem from="1666794728965" duration="61146000" />
+      <workItem from="1667154739175" duration="843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="412" key="#ESLint" timestamp="1666698368404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="412" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1666698368404" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1666960868046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1666960868046" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1666956438062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1666956438062" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1666868480325">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1666868480325" />
+  </component>
+</project>

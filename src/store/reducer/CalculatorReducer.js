@@ -2,11 +2,10 @@ const initialState = {
     expression: '',
     result: '0',
     history: [],
-    historyStatus: true,
-    themeStatus: 'light'
+    themeStatus: localStorage.getItem('theme')
 }
 
-const Calculator = (state = initialState, action) => {
+const CalculatorReducer = (state = initialState, action) => {
 
     switch (action.type) {
         case 'ADD_EXPRESSION': {
@@ -22,30 +21,21 @@ const Calculator = (state = initialState, action) => {
             }
         }
         case 'SET_HISTORY': {
-            if (state.historyStatus) {
                 return {
                     ...state,
-                    history: [action.payload, ...state.history]
+                    history: [...state.history, action.payload]
                 }
-            }
-            if (!state.historyStatus) {
-                return {
-                    ...state,
-                    history: []
-                }
-            }
         }
-        case 'SET_HISTORY_STATUS': {
+        case 'CLEAR_HISTORY': {
             return {
                 ...state,
-                history: [],
-                historyStatus: action.status
+                history: []
             }
         }
         case 'SET_THEME_STATUS': {
             return {
                 ...state,
-                themeStatus: action.status
+                themeStatus: action.theme
             }
         }
         default:
@@ -58,18 +48,18 @@ export const actions = {
         return ({type: 'ADD_EXPRESSION', payload})
     },
     setResult: (payload) => {
-      return ({type: 'SET_RESULT', payload})
+        return ({type: 'SET_RESULT', payload})
     },
     setHistory: (payload) => {
         return ({type: 'SET_HISTORY', payload})
     },
-    setHistoryStatus: (status) => {
-        return ({type: 'SET_HISTORY_STATUS', status})
+    setThemeStatus: (theme) => {
+        return ({type: 'SET_THEME_STATUS', theme})
     },
-    setThemeStatus: (status) => {
-        return ({type: 'SET_THEME_STATUS', status})
+    clearHistory: () => {
+        return ({type: 'CLEAR_HISTORY'})
     }
 }
 
-export default Calculator
+export default CalculatorReducer
 

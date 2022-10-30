@@ -1,19 +1,23 @@
 import React from 'react'
-import s from './keypad.module.scss'
 import {useDispatch, useSelector} from "react-redux";
-import {getExpression, getResult} from "../../store/selectors/Selectors";
-import {calculate} from "../../store/calculations/Calculations";
-import {actions} from "../../store/reducer/Calculator";
+import {getExpression, getResult} from "@store/selectors/Selectors";
+import {calculate, replacePlusMinus} from "@store/calculations/Calculations";
+import {actions} from "@store/reducer/CalculatorReducer";
+import KeyPad from "../keypad/KeyPad";
+import PropTypes from "prop-types";
 
-const buttons = ['7', '8', '9', '*', '/', '4', '5', '6', '-','+', '1', '2', '3', '%', '.', '(', '0', ')', '=', 'AC', 'C']
 
-const KeyPad = () => {
+const Calculator = ( {theme} ) => {
 
     const dispatch = useDispatch()
     const expression = useSelector(getExpression)
     const result = useSelector(getResult)
 
     const handleClick = (value) => () => {
+        inputValue(value)
+    }
+
+    const inputValue = (value) => {
         switch (value) {
             case '=':
                 if (expression.length === 0) break
@@ -36,27 +40,42 @@ const KeyPad = () => {
             case 'AC':
                 dispatch(actions.setExpression(''))
                 dispatch(actions.setResult('0'))
+                dispatch(actions.clearHistory())
+                break
+            case '+/-':
+                /* eslint-disable */
+                if (expression.length !== 0 && expression.match(/[%*\/\-+=]/)) {
+                    dispatch(actions.setExpression(replacePlusMinus(expression)))
+                }
                 break
             default:
                 //if expression last index equal operator and current value equal operator slice expression till operator
-                if (expression.length !== 0 && expression[expression.length - 1].match(/[%\/*\-+]/) && value.match(/[%\/*\-+]/)) {
+                /* eslint-disable */
+                if (expression.length !== 0 && expression[expression.length - 1].match(/[%*\/\-+]/) && value.match(/[%*\/\-+]/)) {
                     dispatch(actions.setExpression(expression.slice(0, expression.length - 1) + value))
                     break
                 }
-                (expression.length === 0 && result !== 'Error' && result !== '0' && result !== 'NaN' && value.match(/[%\/*\-+\(\)=]/)) ?
-                    dispatch(actions.setExpression(result + expression + value)) :
+                /* eslint-disable */
+                if (expression.length === 0 && result !== 'Error' && result !== '0' && result !== 'NaN' && value.match(/[%*\/\-+()=]/)) {
+                    dispatch(actions.setExpression(result + expression + value))
+                }
+                /* eslint-disable */
+                if (expression.match(/[%*\/\-+=]/) && value.match(/[%*\-+=]/)) {
+                    dispatch(actions.setResult(calculate(expression)))
                     dispatch(actions.setExpression(expression + value))
+                } else {
+                    dispatch(actions.setExpression(expression + value))
+                }
         }
     }
 
     return (
-        <div className={s.keypad_section}>
-            {buttons.map((value, index) => (
-                <button id={'handle_Click' + index} onClick={handleClick(value)} key={value}>{value}</button>
-            ))}
-        </div>
+        <KeyPad handleClick={handleClick} theme={theme}/>
     )
 }
 
+Calculator.propTypes = {
+    theme: PropTypes.string
+}
 
-export default KeyPad
+export default Calculator

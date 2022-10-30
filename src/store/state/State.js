@@ -1,8 +1,8 @@
 import {combineReducers, createStore} from "redux";
-import Calculator from "../reducer/Calculator";
+import CalculatorReducer from "../reducer/CalculatorReducer";
 
 const rootReducer = combineReducers({
-    mainReducer: Calculator
+    mainReducer: CalculatorReducer
 });
 let store = createStore(rootReducer)
 
