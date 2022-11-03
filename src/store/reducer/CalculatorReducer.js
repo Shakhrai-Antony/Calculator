@@ -1,65 +1,40 @@
+import { createSlice } from "@reduxjs/toolkit";
+
 const initialState = {
-    expression: '',
-    result: '0',
-    history: [],
-    themeStatus: localStorage.getItem('theme')
-}
+  expression: "",
+  result: "0",
+  history: [],
+  themeStatus: "light",
+};
 
-const CalculatorReducer = (state = initialState, action) => {
-
-    switch (action.type) {
-        case 'ADD_EXPRESSION': {
-            return {
-                ...state,
-                expression: action.payload,
-            }
-        }
-        case 'SET_RESULT': {
-            return {
-                ...state,
-                result: action.payload
-            }
-        }
-        case 'SET_HISTORY': {
-                return {
-                    ...state,
-                    history: [...state.history, action.payload]
-                }
-        }
-        case 'CLEAR_HISTORY': {
-            return {
-                ...state,
-                history: []
-            }
-        }
-        case 'SET_THEME_STATUS': {
-            return {
-                ...state,
-                themeStatus: action.theme
-            }
-        }
-        default:
-            return state
-    }
-}
-
-export const actions = {
-    setExpression: (payload) => {
-        return ({type: 'ADD_EXPRESSION', payload})
+const toolkitSlice = createSlice({
+  name: "calculatorReducer",
+  initialState,
+  reducers: {
+    setExpression: (state, action) => {
+      state.expression = action.payload;
     },
-    setResult: (payload) => {
-        return ({type: 'SET_RESULT', payload})
+    setResult: (state, action) => {
+      state.result = action.payload;
     },
-    setHistory: (payload) => {
-        return ({type: 'SET_HISTORY', payload})
+    setHistory: (state, action) => {
+      state.history = [...state.history, action.payload];
     },
-    setThemeStatus: (theme) => {
-        return ({type: 'SET_THEME_STATUS', theme})
+    setThemeStatus: (state, action) => {
+      state.themeStatus = action.payload;
     },
-    clearHistory: () => {
-        return ({type: 'CLEAR_HISTORY'})
-    }
-}
+    clearHistory: (state) => {
+      state.history = [];
+    },
+  },
+});
 
-export default CalculatorReducer
+export const {
+  setExpression,
+  setResult,
+  setHistory,
+  setThemeStatus,
+  clearHistory,
+} = toolkitSlice.actions;
 
+export default toolkitSlice.reducer;

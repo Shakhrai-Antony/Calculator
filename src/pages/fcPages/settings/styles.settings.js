@@ -1,24 +1,24 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const SettingsSection = styled.div `
-    margin: 100px 0 0 150px;
-`
+const SettingsSection = styled.div`
+  margin: 100px 0 0 150px;
+`;
 
-const Title = styled.h1 `
-    margin-bottom: 50px;
-    font-style: italic;
-    color: ${props => (props.theme === 'light' ? '#000' : '#fff')};
-`
+const Title = styled.h1`
+  margin-bottom: 50px;
+  font-style: italic;
+  color: ${(props) => (props.theme === "light" ? "#000" : "#fff")};
+`;
 
-const Text = styled.p `
-    margin: 20px 0 20px 0;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
-    color: ${props => (props.theme === 'light' ? '#000' : '#fff')};
-`
+const Text = styled.p`
+  margin: 20px 0 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: ${(props) => (props.theme === "light" ? "#000" : "#fff")};
+`;
 
-const Select = styled.select `  
+const Select = styled.select`  
     display: block; 
     font-size: 16px; 
     font-family: sans-serif; 
@@ -50,20 +50,20 @@ const Select = styled.select `
     *[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css { 
     background-position: left .7em top 50%, 0 0; 
     padding: .6em .8em .5em 1.4em; 
-`
+`;
 
-const ClearHistory = styled.button `
-    margin-top: 50px;
-    border-radius: 15px;
-    padding: 20px;
-    font-size: 20px;
-    background-color: #FF6347;
-    border: transparent;
-    color: #fff;
-    &:hover {
-        transform: scale(1.1);
-        cursor: pointer;
-    }   
-`
+const ClearHistory = styled.button`
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #ff6347;
+  border: transparent;
+  color: #fff;
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+`;
 
-export {Title, SettingsSection, Select, Text, ClearHistory}
+export { ClearHistory, Select, SettingsSection, Text, Title };

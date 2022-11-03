@@ -1,15 +1,15 @@
 export const getExpression = (state) => {
-    return state.mainReducer.expression
-}
+  return state.calculatorReducer.expression;
+};
 export const getResult = (state) => {
-    return state.mainReducer.result
-}
+  return state.calculatorReducer.result;
+};
 export const getHistory = (state) => {
-    return state.mainReducer.history
-}
+  return state.calculatorReducer.history;
+};
 export const getHistoryStatus = (state) => {
-    return state.mainReducer.historyStatus
-}
+  return state.calculatorReducer.historyStatus;
+};
 export const getCurrentTheme = (state) => {
-    return state.mainReducer.themeStatus
-}
+  return state.calculatorReducer.themeStatus;
+};

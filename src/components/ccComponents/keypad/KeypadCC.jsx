@@ -1,30 +1,35 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {Button, Wrapper} from "@componentsStyles/keypad/styles.keypad";
+import { Button, Wrapper } from "@componentsStyles/keypad/styles.keypad";
+import PropTypes from "prop-types";
+import React from "react";
 
-const buttons = ['7', '8', '9', '*', '/', '4', '5', '6', '-','+', '1', '2', '3', '%', '.', '(', '0', ')', '=', 'AC', 'C', '+/-']
+import { buttons } from "./config";
 
 class KeypadCC extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-
-        return (
-            <Wrapper theme={this.props.theme}>
-                {buttons.map((value, index) => (
-                    <Button theme={this.props.theme} id={'handle_Click' + index} onClick={this.props.handleClick(value)} key={value}>{value}</Button>
-                ))}
-            </Wrapper>
-        )
-    }
+  render() {
+    return (
+      <Wrapper theme={this.props.theme}>
+        {buttons.map((value, index) => (
+          <Button
+            theme={this.props.theme}
+            id={"handle_Click" + index}
+            onClick={this.props.handleClick(value)}
+            key={value}
+          >
+            {value}
+          </Button>
+        ))}
+      </Wrapper>
+    );
+  }
 }
 
 KeypadCC.propTypes = {
-    handleClick: PropTypes.func,
-    theme: PropTypes.string
-}
+  handleClick: PropTypes.func,
+  theme: PropTypes.string,
+};
 
-export default KeypadCC
+export default KeypadCC;

@@ -11,41 +11,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.paths.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/CalculatorCC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/display/DisplayCC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/history/History.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/KeypadCC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/display/styles.display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/history/styles.history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/styles.keypad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/styles.header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ccPages/home/HomeСС.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/SettingsCC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/fcPages/home/styles.home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/styles.settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/App.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/App.e2e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/display/Display.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/display/Display.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/display/display.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/calculator/CalculatorCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/CalculatorCC.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/display/DisplayCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/display/DisplayCC.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/history/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/history/History.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/keypad/KeypadCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/KeypadCC.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/errorBoundary/ErrorBoundary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/errorBoundary/ErrorBoundary.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/calculator/Calculator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/calculator/Calculator.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/display/Display.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/display/Display.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/display/styles.display.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/display/styles.display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/history/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/history/History.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/history/styles.history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/history/styles.history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/styles.keypad.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/styles.keypad.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/history/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/history/History.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/keypad/Keypad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/calculator/Calculator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/keypad/keypad.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/styles.header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/styles.header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/Settings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/settings/settings.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/home/HomeСС.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/home/HomeСС.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/settings/SettingsCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/SettingsCC.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/home/styles.home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/home/styles.home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/Settings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/settings/styles.settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/styles.settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/calculations/Calculations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/calculations/Calculations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer/CalculatorReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/state/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/state/State.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer/CalculatorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer/CalculatorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/selectors/Selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/selectors/Selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/state/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,17 +89,21 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\my_calculator\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\my_calculator\src\components\ccComponents" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_calculator" />
+      <recent name="D:\my_calculator\src\store" />
       <recent name="D:\my_calculator\src\components" />
       <recent name="D:\my_calculator\src\components\fcComponents" />
       <recent name="D:\my_calculator\src\pages\fcPages" />
-      <recent name="D:\my_calculator\src\store" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -124,7 +130,16 @@
       <workItem from="1666791690409" duration="1722000" />
       <workItem from="1666794598138" duration="123000" />
       <workItem from="1666794728965" duration="61146000" />
-      <workItem from="1667154739175" duration="843000" />
+      <workItem from="1667154739175" duration="4972000" />
+      <workItem from="1667241119180" duration="648000" />
+      <workItem from="1667382783886" duration="37690000" />
+      <workItem from="1667458004483" duration="1933000" />
+      <workItem from="1667460282452" duration="907000" />
+      <workItem from="1667461215369" duration="1367000" />
+      <workItem from="1667462612860" duration="112000" />
+      <workItem from="1667462739033" duration="871000" />
+      <workItem from="1667463632351" duration="2448000" />
+      <workItem from="1667466125227" duration="12890000" />
     </task>
     <servers />
   </component>
@@ -148,17 +163,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="412" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1666698368404" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1666960868046">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1667461857345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1666960868046" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1666956438062">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1667461857345" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1667462215975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1666956438062" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1666868480325">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1667462215975" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1667390046325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1666868480325" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1667390046325" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1667398048278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1667398048278" />
   </component>
 </project>
