@@ -11,40 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/commands/ACCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/CCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/Command.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/EqualCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/NumberCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/PlusMinusCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands/SignCommand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/CommandResultEntity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/calculator/CalculatorCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/CalculatorCC.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/display/DisplayCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/display/DisplayCC.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/history/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/history/History.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/keypad/KeypadCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/KeypadCC.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/keypad/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/calculator/Calculator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/calculator/Calculator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/display/Display.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/display/Display.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/display/styles.display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/history/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/history/History.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/history/styles.history.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/styles.keypad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/home/HomeСС.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/home/HomeСС.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/settings/SettingsCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/SettingsCC.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/home/styles.home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/settings/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/Settings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/settings/styles.settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer/CalculatorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer/CalculatorReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styled.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +107,7 @@
       <workItem from="1667462739033" duration="871000" />
       <workItem from="1667463632351" duration="2448000" />
       <workItem from="1667466125227" duration="63494000" />
+      <workItem from="1667824957853" duration="1744000" />
     </task>
     <servers />
   </component>

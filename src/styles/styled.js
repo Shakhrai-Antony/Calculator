@@ -106,9 +106,9 @@ export const ClearHistory = styled.button`
   border-radius: 15px;
   padding: 20px;
   font-size: 20px;
-  background-color: #ff6347;
+  background-color: ${({ theme }) => theme.colors.tomato};
   border: transparent;
-  color: ${({ theme }) => theme.colors.defaultWhite}
+  color: ${({ theme }) => theme.colors.defaultWhite};
   &:hover {
     transform: scale(1.1);
     cursor: pointer;
