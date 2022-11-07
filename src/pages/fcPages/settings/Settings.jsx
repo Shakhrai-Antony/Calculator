@@ -1,19 +1,9 @@
 import { clearHistory, setThemeStatus } from "@store/reducer/CalculatorReducer";
-import { getCurrentTheme } from "@store/selectors/Selectors";
+import { ClearHistory, Select, SettingsSection, Text, Title } from "@styles";
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-
-import {
-  ClearHistory,
-  Select,
-  SettingsSection,
-  Text,
-  Title,
-} from "./styles.settings";
+import { useDispatch } from "react-redux";
 
 const ControlPanelFC = () => {
-  const theme = useSelector(getCurrentTheme);
-
   const dispatch = useDispatch();
 
   const handleChange = (e) => {
@@ -26,8 +16,8 @@ const ControlPanelFC = () => {
 
   return (
     <SettingsSection>
-      <Title theme={theme}>Settings</Title>
-      <Text theme={theme}>Choose Theme</Text>
+      <Title>Settings</Title>
+      <Text>Choose Theme</Text>
       <form>
         <label>
           <Select

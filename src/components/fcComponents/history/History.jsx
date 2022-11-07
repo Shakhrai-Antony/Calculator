@@ -1,37 +1,32 @@
+import { setHistoryStatus } from "@store/reducer/CalculatorReducer";
 import { getHistory } from "@store/selectors/Selectors";
-import PropTypes from "prop-types";
-import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import { getHistoryStatus } from "@store/selectors/Selectors";
+import { HistoryBlock, HistoryButton, HistoryWrapper } from "@styles";
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 
-import { Button, HistorySection, Wrapper } from "./styles.history";
-
-const History = ({ theme }) => {
+const History = () => {
   const history = useSelector(getHistory);
-  const [historyStatus, setHistoryStatus] = useState(false);
+  const historyStatus = useSelector(getHistoryStatus);
+  const dispatch = useDispatch();
 
   const handleClick = () => {
-    setHistoryStatus(!historyStatus);
+    dispatch(setHistoryStatus(!historyStatus));
   };
 
   return (
-    <Wrapper>
-      <Button theme={theme} onClick={handleClick}>
-        ➛
-      </Button>
+    <HistoryWrapper>
+      <HistoryButton onClick={handleClick}>➛</HistoryButton>
       {historyStatus ? (
-        <HistorySection theme={theme}>
+        <HistoryBlock>
           <h3>History</h3>
           {history.map((value, index) => (
             <p key={index}>{value}</p>
           ))}
-        </HistorySection>
+        </HistoryBlock>
       ) : null}
-    </Wrapper>
+    </HistoryWrapper>
   );
-};
-
-History.propTypes = {
-  theme: PropTypes.string,
 };
 
 export default History;

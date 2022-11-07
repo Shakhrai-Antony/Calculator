@@ -1,29 +1,27 @@
+import { Button, KeyPadWrapper } from "@styles";
 import PropTypes from "prop-types";
 import React from "react";
 
 import { buttons } from "./config";
-import { Button, Wrapper } from "./styles.keypad";
 
-const KeyPad = ({ handleClick, theme }) => {
+const KeyPad = ({ handleClick }) => {
   return (
-    <Wrapper theme={theme}>
-      {buttons.map((value, index) => (
+    <KeyPadWrapper>
+      {buttons.map(({ value, index, command }) => (
         <Button
-          theme={theme}
           id={"handle_Click" + index}
-          onClick={handleClick(value)}
+          onClick={handleClick(command)}
           key={value}
         >
           {value}
         </Button>
       ))}
-    </Wrapper>
+    </KeyPadWrapper>
   );
 };
 
 KeyPad.propTypes = {
   handleClick: PropTypes.func,
-  theme: PropTypes.string,
 };
 
 export default KeyPad;

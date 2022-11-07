@@ -1,16 +1,8 @@
-import {
-  ClearHistory,
-  Select,
-  SettingsSection,
-  Text,
-  Title,
-} from "@pagesStyles/settings/styles.settings";
 import { clearHistory, setThemeStatus } from "@store/reducer/CalculatorReducer";
+import { ClearHistory, Select, SettingsSection, Text, Title } from "@styles";
 import PropTypes from "prop-types";
 import React from "react";
 import { connect } from "react-redux";
-
-import { getCurrentTheme } from "../../../store/selectors/Selectors";
 
 class ControlPanelCC extends React.Component {
   handleClick = () => {
@@ -24,8 +16,8 @@ class ControlPanelCC extends React.Component {
   render() {
     return (
       <SettingsSection>
-        <Title theme={this.props.theme}>Settings</Title>
-        <Text theme={this.props.theme}>Choose Theme</Text>
+        <Title>Settings</Title>
+        <Text>Choose Theme</Text>
         <form>
           <label>
             <Select
@@ -55,13 +47,6 @@ class ControlPanelCC extends React.Component {
 ControlPanelCC.propTypes = {
   resetHistory: PropTypes.func,
   changeTheme: PropTypes.func,
-  theme: PropTypes.string,
-};
-
-const mapStateToProps = (state) => {
-  return {
-    theme: getCurrentTheme(state),
-  };
 };
 
 const mapDispatchToProps = (dispatch) => {
@@ -75,4 +60,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(ControlPanelCC);
+export default connect(null, mapDispatchToProps)(ControlPanelCC);

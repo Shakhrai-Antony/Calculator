@@ -1,30 +1,25 @@
 import Calculator from "@components/fcComponents/calculator/Calculator";
 import Display from "@components/fcComponents/display/Display";
 import History from "@components/fcComponents/history/History";
-import { getCurrentTheme } from "@store/selectors/Selectors";
-import React from "react";
-import { useSelector } from "react-redux";
-
 import {
   CalculatorSection,
   DisplaySection,
   HistorySection,
   Wrapper,
-} from "./styles.home";
+} from "@styles";
+import React from "react";
 
 const HomeFC = () => {
-  const theme = useSelector(getCurrentTheme);
-
   return (
-    <Wrapper theme={theme}>
+    <Wrapper>
       <HistorySection>
-        <History theme={theme} />
+        <History />
       </HistorySection>
-      <CalculatorSection theme={theme}>
-        <DisplaySection theme={theme}>
-          <Display theme={theme} />
+      <CalculatorSection>
+        <DisplaySection>
+          <Display />
         </DisplaySection>
-        <Calculator theme={theme} />
+        <Calculator />
       </CalculatorSection>
     </Wrapper>
   );

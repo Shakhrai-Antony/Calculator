@@ -1,8 +1,7 @@
-import { Button, Wrapper } from "@componentsStyles/keypad/styles.keypad";
+import { buttons } from "@componentsStyles/keypad/config";
+import { Button, KeyPadWrapper } from "@styles";
 import PropTypes from "prop-types";
 import React from "react";
-
-import { buttons } from "./config";
 
 class KeypadCC extends React.Component {
   constructor(props) {
@@ -10,26 +9,25 @@ class KeypadCC extends React.Component {
   }
 
   render() {
+    const { handleClick } = this.props;
     return (
-      <Wrapper theme={this.props.theme}>
-        {buttons.map((value, index) => (
+      <KeyPadWrapper>
+        {buttons.map(({ value, index, command }) => (
           <Button
-            theme={this.props.theme}
             id={"handle_Click" + index}
-            onClick={this.props.handleClick(value)}
+            onClick={handleClick(command)}
             key={value}
           >
             {value}
           </Button>
         ))}
-      </Wrapper>
+      </KeyPadWrapper>
     );
   }
 }
 
 KeypadCC.propTypes = {
   handleClick: PropTypes.func,
-  theme: PropTypes.string,
 };
 
 export default KeypadCC;

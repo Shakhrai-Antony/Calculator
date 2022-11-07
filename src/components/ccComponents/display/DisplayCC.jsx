@@ -1,8 +1,5 @@
-import {
-  ExpressionSection,
-  ResultSection,
-} from "@componentsStyles/display/styles.display";
 import { getExpression, getResult } from "@store/selectors/Selectors";
+import { ExpressionSection, ResultSection } from "@styles";
 import PropTypes from "prop-types";
 import React from "react";
 import { connect } from "react-redux";
@@ -12,14 +9,11 @@ class DisplayCC extends React.Component {
     super(props);
   }
   render() {
+    const { expression, result } = this.props;
     return (
       <>
-        <ExpressionSection theme={this.props.theme} id="expression">
-          {this.props.expression}
-        </ExpressionSection>
-        <ResultSection theme={this.props.theme} id="result">
-          {this.props.result}
-        </ResultSection>
+        <ExpressionSection id="expression">{expression}</ExpressionSection>
+        <ResultSection id="result">{result}</ResultSection>
       </>
     );
   }
@@ -28,7 +22,6 @@ class DisplayCC extends React.Component {
 DisplayCC.propTypes = {
   expression: PropTypes.string,
   result: PropTypes.string,
-  theme: PropTypes.string,
 };
 
 const mapStateToProps = (state) => {

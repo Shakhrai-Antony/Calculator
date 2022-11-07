@@ -5,6 +5,7 @@ const initialState = {
   result: "0",
   history: [],
   themeStatus: "light",
+  historyStatus: false,
 };
 
 const toolkitSlice = createSlice({
@@ -26,6 +27,9 @@ const toolkitSlice = createSlice({
     clearHistory: (state) => {
       state.history = [];
     },
+    setHistoryStatus: (state, action) => {
+      state.historyStatus = action.payload;
+    },
   },
 });
 
@@ -35,6 +39,7 @@ export const {
   setHistory,
   setThemeStatus,
   clearHistory,
+  setHistoryStatus,
 } = toolkitSlice.actions;
 
 export default toolkitSlice.reducer;

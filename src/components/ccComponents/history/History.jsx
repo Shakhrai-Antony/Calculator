@@ -1,9 +1,7 @@
-import {
-  Button,
-  HistorySection,
-  Wrapper,
-} from "@componentsStyles/history/styles.history";
+import { setHistoryStatus } from "@store/reducer/CalculatorReducer";
 import { getHistory } from "@store/selectors/Selectors";
+import { getHistoryStatus } from "@store/selectors/Selectors";
+import { HistoryBlock, HistoryButton, HistoryWrapper } from "@styles";
 import PropTypes from "prop-types";
 import React from "react";
 import { connect } from "react-redux";
@@ -11,33 +9,27 @@ import { connect } from "react-redux";
 class History extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      historyStatus: false,
-    };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = () => {
-    this.setState({
-      historyStatus: !this.state.historyStatus,
-    });
+    this.props.changeHistoryStatus(!this.props.historyStatus);
   };
 
   render() {
+    const { historyStatus, history } = this.props;
     return (
-      <Wrapper>
-        <Button theme={this.props.theme} onClick={this.handleClick}>
-          ➛
-        </Button>
-        {this.state.historyStatus ? (
-          <HistorySection theme={this.props.theme}>
+      <HistoryWrapper>
+        <HistoryButton onClick={this.handleClick}>➛</HistoryButton>
+        {historyStatus ? (
+          <HistoryBlock>
             <h3>History</h3>
-            {this.props.history.map((value, index) => (
+            {history.map((value, index) => (
               <p key={index}>{value}</p>
             ))}
-          </HistorySection>
+          </HistoryBlock>
         ) : null}
-      </Wrapper>
+      </HistoryWrapper>
     );
   }
 }
@@ -45,12 +37,22 @@ class History extends React.Component {
 const mapStateToProps = (state) => {
   return {
     history: getHistory(state),
+    historyStatus: getHistoryStatus(state),
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    changeHistoryStatus: (historyStatus) => {
+      dispatch(setHistoryStatus(historyStatus));
+    },
   };
 };
 
 History.propTypes = {
-  theme: PropTypes.string,
   history: PropTypes.array,
+  historyStatus: PropTypes.bool,
+  changeHistoryStatus: PropTypes.func,
 };
 
-export default connect(mapStateToProps)(History);
+export default connect(mapStateToProps, mapDispatchToProps)(History);
