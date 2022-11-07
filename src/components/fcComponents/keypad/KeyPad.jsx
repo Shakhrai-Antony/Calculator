@@ -7,7 +7,7 @@ import { buttons } from "./config";
 const KeyPad = ({ handleClick }) => {
   return (
     <KeyPadWrapper>
-      {buttons.map(({ value, index, command }) => (
+      {buttons.map(({ value, command }, index) => (
         <Button
           id={"handle_Click" + index}
           onClick={handleClick(command)}

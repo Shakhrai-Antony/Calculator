@@ -12,7 +12,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/integration/App.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/App.e2e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/styles.header.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +112,8 @@
       <workItem from="1667462739033" duration="871000" />
       <workItem from="1667463632351" duration="2448000" />
       <workItem from="1667466125227" duration="63494000" />
-      <workItem from="1667824957853" duration="1744000" />
+      <workItem from="1667824957853" duration="5831000" />
+      <workItem from="1667834037147" duration="363000" />
     </task>
     <servers />
   </component>

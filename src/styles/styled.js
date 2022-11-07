@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 import { lightTheme } from "../theme";
@@ -5,6 +6,64 @@ import { lightTheme } from "../theme";
 export const StyledApp = styled.div`
   min-height: 100vh;
   background-color: ${({ theme }) => theme.body};
+`;
+
+export const HeaderWrapper = styled.header`
+  display: flex;
+  padding: 20px 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: ${({ theme }) => theme.colors.grayishBlue};
+`;
+
+export const Navigation = styled.ul`
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+`;
+
+export const Link = styled(NavLink)`
+  text-decoration: none;
+  color: gray;
+  font-size: 22px;
+  padding: 0;
+  align-items: center;
+  &:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background: ${({ theme }) => theme.colors.defaultWhite};
+    transition-duration: 300ms;
+  }
+  &:hover {
+    &:after {
+      width: 100%;
+    }
+  }
+  &.active {
+    text-decoration: ${({ theme }) => theme.colors.defaultWhite};
+    color: ${({ theme }) => theme.colors.defaultWhite};
+    &:after {
+      width: 100%;
+    }
+  }
+`;
+
+export const NavigationLi = styled.li`
+  align-items: center;
+  padding-right: 25px;
+  height: 10vh;
+  display: flex;
+`;
+
+export const HeaderTitle = styled.h1`
+  color: ${({ theme }) => theme.colors.defaultWhite};
 `;
 
 export const Wrapper = styled.section`

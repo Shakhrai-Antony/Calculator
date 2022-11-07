@@ -9,6 +9,7 @@ const baseTheme = {
     tomato: "#FF6347",
     lightSlateGray: "#778899",
     lavender: "#E6E6FA",
+    grayishBlue: "#282c34",
   },
   sizes: {
     width: 42 | 70 | 350 | 400 | 700,

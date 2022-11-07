@@ -1,18 +1,18 @@
-import React from "react";
-
-import { links } from "./config";
 import {
+  HeaderTitle,
+  HeaderWrapper,
   Link,
   Navigation,
   NavigationLi,
-  Title,
-  Wrapper,
-} from "./styles.header";
+} from "@styles";
+import React from "react";
+
+import { links } from "./config";
 
 const Header = () => {
   return (
-    <Wrapper>
-      <Title id="calculator_App">Calculator App</Title>
+    <HeaderWrapper>
+      <HeaderTitle id="calculator_App">Calculator App</HeaderTitle>
       <nav>
         <Navigation id="navigation_links">
           {links.map(({ id, value, to }) => (
@@ -24,7 +24,7 @@ const Header = () => {
           ))}
         </Navigation>
       </nav>
-    </Wrapper>
+    </HeaderWrapper>
   );
 };
 
