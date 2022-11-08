@@ -1,5 +1,5 @@
 import { CommandResultEntity } from "../entities/CommandResultEntity";
-import { calculate } from "../store/calculations/Calculations";
+import { calculate } from "../store/calculations";
 import { Command } from "./Command";
 
 export class EqualCommand extends Command {

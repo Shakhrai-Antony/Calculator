@@ -1,15 +1,10 @@
-import {
-  setExpression,
-  setHistory,
-  setResult,
-} from "@store/reducer/CalculatorReducer";
-import { getExpression } from "@store/selectors/Selectors";
+import { setExpression, setHistory, setResult } from "@store/reducer";
+import { getExpression, getResult } from "@store/selectors";
 import PropTypes from "prop-types";
 import React from "react";
 import { connect } from "react-redux";
 
-import { getResult } from "../../../store/selectors/Selectors";
-import KeypadCC from "../keypad/KeypadCC";
+import KeypadCC from "../keypad";
 
 class CalculatorCC extends React.Component {
   constructor(props) {

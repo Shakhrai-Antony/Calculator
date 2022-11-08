@@ -1,4 +1,4 @@
-import { buttons } from "@componentsStyles/keypad/config";
+import { buttons } from "@components/fcComponents/keypad/config";
 import { Button, KeyPadWrapper } from "@styles";
 import PropTypes from "prop-types";
 import React from "react";

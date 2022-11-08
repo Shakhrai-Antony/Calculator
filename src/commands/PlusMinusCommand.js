@@ -1,5 +1,5 @@
 import { CommandResultEntity } from "../entities/CommandResultEntity";
-import { replacePlusMinus } from "../store/calculations/Calculations";
+import { replacePlusMinus } from "../store/calculations";
 import { Command } from "./Command";
 
 export class PlusMinusCommand extends Command {

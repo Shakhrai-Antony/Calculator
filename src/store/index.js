@@ -3,7 +3,7 @@ import { combineReducers } from "redux";
 import { persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
-import CalculatorReducer from "./reducer/CalculatorReducer";
+import CalculatorReducer from "./reducer";
 
 const reducers = combineReducers({
   calculatorReducer: CalculatorReducer,

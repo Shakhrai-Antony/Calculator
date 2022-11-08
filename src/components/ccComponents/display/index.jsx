@@ -1,4 +1,4 @@
-import { getExpression, getResult } from "@store/selectors/Selectors";
+import { getExpression, getResult } from "@store/selectors";
 import { ExpressionSection, ResultSection } from "@styles";
 import PropTypes from "prop-types";
 import React from "react";

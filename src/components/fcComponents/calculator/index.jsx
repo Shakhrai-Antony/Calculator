@@ -1,14 +1,10 @@
-import {
-  setExpression,
-  setHistory,
-  setResult,
-} from "@store/reducer/CalculatorReducer";
-import { getExpression, getResult } from "@store/selectors/Selectors";
+import { setExpression, setHistory, setResult } from "@store/reducer";
+import { getExpression, getResult } from "@store/selectors";
 import PropTypes from "prop-types";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import KeyPad from "../keypad/KeyPad";
+import KeyPad from "../keypad";
 
 const Calculator = () => {
   const dispatch = useDispatch();

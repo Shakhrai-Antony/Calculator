@@ -1,6 +1,6 @@
-import { setHistoryStatus } from "@store/reducer/CalculatorReducer";
-import { getHistory } from "@store/selectors/Selectors";
-import { getHistoryStatus } from "@store/selectors/Selectors";
+import { setHistoryStatus } from "@store/reducer";
+import { getHistory } from "@store/selectors";
+import { getHistoryStatus } from "@store/selectors";
 import { HistoryBlock, HistoryButton, HistoryWrapper } from "@styles";
 import PropTypes from "prop-types";
 import React from "react";
