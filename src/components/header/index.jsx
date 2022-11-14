@@ -1,13 +1,13 @@
+import React from 'react';
+
+import { links } from './config';
 import {
   HeaderTitle,
   HeaderWrapper,
   Link,
   Navigation,
   NavigationLi,
-} from "@styles";
-import React from "react";
-
-import { links } from "./config";
+} from '@styles';
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
         <Navigation id="navigation_links">
           {links.map(({ id, value, to }) => (
             <NavigationLi key={id}>
-              <Link id={"link" + id} to={to}>
+              <Link id={'link' + id} to={to}>
                 {value}
               </Link>
             </NavigationLi>

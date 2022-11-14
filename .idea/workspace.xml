@@ -11,37 +11,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/layout/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/container.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/display/container.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/history/container.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/container.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/plugins/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/EqualCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/EqualCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/PlusMinusCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/PlusMinusCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/NumberCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/NumberCommand.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/SignCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/SignCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/calculator/CalculatorCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/display/DisplayCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/display/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/history/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/history/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/keypad/KeypadCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/errorBoundary/ErrorBoundary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/errorBoundary/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/calculator/Calculator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/calculator/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/display/Display.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/display/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/history/History.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/history/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/KeyPad.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/home/HomeСС.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/settings/SettingsCC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/settings/Settings.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/calculations/Calculations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/calculations/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer/CalculatorReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/selectors/Selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/selectors/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/calculator/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/display/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/display/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/history/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/history/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/keypad/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/errorBoundary/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/errorBoundary/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/calculator/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/calculator/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/display/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/display/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/history/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/history/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/settings/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/settings/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,17 +88,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my_calculator\src\commands" />
-      <recent name="D:\my_calculator\src\components\commands" />
-      <recent name="D:\my_calculator\src\components\ccComponents" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_calculator\src\pages\ccPages\settings" />
       <recent name="D:\my_calculator\src" />
       <recent name="D:\my_calculator" />
       <recent name="D:\my_calculator\src\store" />
       <recent name="D:\my_calculator\src\components" />
-      <recent name="D:\my_calculator\src\components\fcComponents" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_calculator\src\commands" />
+      <recent name="D:\my_calculator\src\components\commands" />
+      <recent name="D:\my_calculator\src\components\ccComponents" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -138,7 +137,13 @@
       <workItem from="1667466125227" duration="63494000" />
       <workItem from="1667824957853" duration="5831000" />
       <workItem from="1667834037147" duration="7521000" />
-      <workItem from="1667895227054" duration="4513000" />
+      <workItem from="1667895227054" duration="15880000" />
+      <workItem from="1668177338348" duration="2599000" />
+      <workItem from="1668363795111" duration="2161000" />
+      <workItem from="1668365987302" duration="5825000" />
+      <workItem from="1668372527653" duration="1182000" />
+      <workItem from="1668408475331" duration="8948000" />
+      <workItem from="1668417516033" duration="6756000" />
     </task>
     <servers />
   </component>
@@ -162,6 +167,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="412" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1666698368404" />
+    <state x="586" y="198" key="#Inspections" timestamp="1668409719602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1668409719602" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1667570487187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -178,10 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1411" y="181" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1667542061825" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1667462215975">
+    <state x="710" y="278" key="SettingsEditor" timestamp="1668372632030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1667462215975" />
+    <state x="710" y="278" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1668372632030" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1667390046325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

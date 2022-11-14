@@ -1,7 +1,8 @@
-import { getExpression, getResult } from "@store/selectors";
-import { ExpressionSection, ResultSection } from "@styles";
-import React from "react";
-import { useSelector } from "react-redux";
+import React from 'react';
+import { useSelector } from 'react-redux';
+
+import { getExpression, getResult } from '@store/selectors';
+import { ExpressionSection, ResultSection } from '@styles';
 
 const Display = () => {
   const expression = useSelector(getExpression);

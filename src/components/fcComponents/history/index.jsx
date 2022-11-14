@@ -1,8 +1,9 @@
-import { setHistoryStatus } from "@store/reducer";
-import { getHistory, getHistoryStatus } from "@store/selectors";
-import { HistoryBlock, HistoryButton, HistoryWrapper } from "@styles";
-import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { setHistoryStatus } from '@store/reducer';
+import { getHistory, getHistoryStatus } from '@store/selectors';
+import { HistoryBlock, HistoryButton, HistoryWrapper } from '@styles';
 
 const History = () => {
   const history = useSelector(getHistory);

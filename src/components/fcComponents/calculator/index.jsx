@@ -1,10 +1,10 @@
-import { setExpression, setHistory, setResult } from "@store/reducer";
-import { getExpression, getResult } from "@store/selectors";
-import PropTypes from "prop-types";
-import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import PropTypes from 'prop-types';
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 
-import KeyPad from "../keypad";
+import KeyPad from '../keypad';
+import { setExpression, setHistory, setResult } from '@store/reducer';
+import { getExpression, getResult } from '@store/selectors';
 
 const Calculator = () => {
   const dispatch = useDispatch();

@@ -1,14 +1,15 @@
-import CalculatorCC from "@components/ccComponents/calculator";
-import DisplayCC from "@components/ccComponents/display";
-import History from "@components/ccComponents/history";
-import Layout from "@components/layout";
+import React from 'react';
+
+import CalculatorContainer from '@components/ccComponents/calculator/container';
+import DisplayContainer from '@components/ccComponents/display/container';
+import HistoryContainer from '@components/ccComponents/history/container';
+import Layout from '@components/layout';
 import {
   CalculatorSection,
   DisplaySection,
   HistorySection,
   Wrapper,
-} from "@styles";
-import React from "react";
+} from '@styles';
 
 class HomeCC extends React.Component {
   render() {
@@ -16,13 +17,13 @@ class HomeCC extends React.Component {
       <Layout>
         <Wrapper>
           <HistorySection>
-            <History />
+            <HistoryContainer />
           </HistorySection>
           <CalculatorSection>
             <DisplaySection>
-              <DisplayCC />
+              <DisplayContainer />
             </DisplaySection>
-            <CalculatorCC />
+            <CalculatorContainer />
           </CalculatorSection>
         </Wrapper>
       </Layout>

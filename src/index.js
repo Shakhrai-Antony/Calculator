@@ -1,26 +1,26 @@
-import store from "@store";
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { Provider } from "react-redux";
-import { BrowserRouter } from "react-router-dom";
-import { persistStore } from "redux-persist";
-import { PersistGate } from "redux-persist/integration/react";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+import { HashRouter } from 'react-router-dom';
+import { persistStore } from 'redux-persist';
+import { PersistGate } from 'redux-persist/integration/react';
 
-import App from "./App";
-import "./index.css";
-import reportWebVitals from "./reportWebVitals";
+import App from './App';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import store from '@store';
 
 const persistor = persistStore(store);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
+  <Provider store={store}>
+    <PersistGate loading={null} persistor={persistor}>
+      <HashRouter>
         <App />
-      </PersistGate>
-    </Provider>
-  </BrowserRouter>
+      </HashRouter>
+    </PersistGate>
+  </Provider>,
 );
 
 if (window.Cypress) {

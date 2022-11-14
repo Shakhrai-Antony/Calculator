@@ -1,14 +1,15 @@
-import Calculator from "@components/fcComponents/calculator";
-import Display from "@components/fcComponents/display";
-import History from "@components/fcComponents/history";
-import Layout from "@components/layout";
+import React from 'react';
+
+import Calculator from '@components/fcComponents/calculator';
+import Display from '@components/fcComponents/display';
+import History from '@components/fcComponents/history';
+import Layout from '@components/layout';
 import {
   CalculatorSection,
   DisplaySection,
   HistorySection,
   Wrapper,
-} from "@styles";
-import React from "react";
+} from '@styles';
 
 const HomeFC = () => {
   return (

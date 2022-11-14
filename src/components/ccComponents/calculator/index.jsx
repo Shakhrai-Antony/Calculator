@@ -1,29 +1,25 @@
-import { setExpression, setHistory, setResult } from "@store/reducer";
-import { getExpression, getResult } from "@store/selectors";
-import PropTypes from "prop-types";
-import React from "react";
-import { connect } from "react-redux";
+import PropTypes from 'prop-types';
+import React from 'react';
 
-import KeypadCC from "../keypad";
+import KeypadCC from '../keypad';
 
-class CalculatorCC extends React.Component {
-  constructor(props) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick = (value) => () => {
-    const command = value(this.props.expression, this.props.result);
+const CalculatorCC = ({
+  expression,
+  result,
+  changeResult,
+  changeExpression,
+  loadHistory,
+}) => {
+  const handleClick = (value) => () => {
+    const command = value(expression, result);
     const commandResultEntity = command.execute();
-    this.props.changeExpression(commandResultEntity.expression);
-    this.props.changeResult(commandResultEntity.result);
-    this.props.loadHistory(command.getHistory());
+    changeExpression(commandResultEntity.expression);
+    changeResult(commandResultEntity.result);
+    loadHistory(command.getHistory());
   };
 
-  render() {
-    return <KeypadCC handleClick={this.handleClick} />;
-  }
-}
+  return <KeypadCC handleClick={handleClick} />;
+};
 
 CalculatorCC.propTypes = {
   expression: PropTypes.string,
@@ -33,25 +29,4 @@ CalculatorCC.propTypes = {
   result: PropTypes.string,
 };
 
-const mapStateToProps = (state) => {
-  return {
-    expression: getExpression(state),
-    result: getResult(state),
-  };
-};
-
-const mapDispatchToProps = (dispatch) => {
-  return {
-    changeResult: (result) => {
-      dispatch(setResult(result));
-    },
-    changeExpression: (expression) => {
-      dispatch(setExpression(expression));
-    },
-    loadHistory: (history) => {
-      dispatch(setHistory(history));
-    },
-  };
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(CalculatorCC);
+export default CalculatorCC;

@@ -1,8 +1,9 @@
-import Layout from "@components/layout";
-import { clearHistory, setThemeStatus } from "@store/reducer";
-import { ClearHistory, Select, SettingsSection, Text, Title } from "@styles";
-import React from "react";
-import { useDispatch } from "react-redux";
+import React from 'react';
+import { useDispatch } from 'react-redux';
+
+import Layout from '@components/layout';
+import { clearHistory, setThemeStatus } from '@store/reducer';
+import { ClearHistory, Select, SettingsSection, Text, Title } from '@styles';
 
 const ControlPanelFC = () => {
   const dispatch = useDispatch();
@@ -23,7 +24,7 @@ const ControlPanelFC = () => {
         <form>
           <label>
             <Select
-              defaultValue={""}
+              defaultValue=""
               onChange={handleChange}
               id="theme"
               name="theme"

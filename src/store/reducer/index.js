@@ -1,15 +1,15 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  expression: "",
-  result: "0",
+  expression: '',
+  result: '0',
   history: [],
-  themeStatus: "light",
+  themeStatus: 'light',
   historyStatus: false,
 };
 
 const toolkitSlice = createSlice({
-  name: "calculatorReducer",
+  name: 'calculatorReducer',
   initialState,
   reducers: {
     setExpression: (state, action) => {
