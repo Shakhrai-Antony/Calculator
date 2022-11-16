@@ -1,6 +1,6 @@
-import { CommandResultEntity } from "../entities/CommandResultEntity";
-import { replacePlusMinus } from "../store/calculations";
-import { Command } from "./Command";
+import { Command } from './Command';
+import { CommandResultEntity } from './CommandResultEntity';
+import { replacePlusMinus } from '@store/calculations';
 
 export class PlusMinusCommand extends Command {
   constructor(expression) {
@@ -12,6 +12,6 @@ export class PlusMinusCommand extends Command {
     if (this.expression.length !== 0) {
       return new CommandResultEntity(replacePlusMinus(this.expression));
     }
-    return new CommandResultEntity(this.expression, "");
+    return new CommandResultEntity(this.expression, '');
   }
 }

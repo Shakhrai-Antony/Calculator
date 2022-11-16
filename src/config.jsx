@@ -2,8 +2,8 @@ import React from 'react';
 import { useRoutes } from 'react-router-dom';
 
 import Layout from './components/layout';
+import SettingsContainer from './containers/settingsContainer';
 import HomeCC from './pages/ccPages/home';
-import SettingsContainer from './pages/ccPages/settings/container';
 import HomeFC from './pages/fcPages/home';
 import ControlPanelFC from './pages/fcPages/settings';
 

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 
-import History from './index';
+import History from '../components/ccComponents/history';
 import { setHistoryStatus } from '@store/reducer';
 import { getHistory, getHistoryStatus } from '@store/selectors';
 

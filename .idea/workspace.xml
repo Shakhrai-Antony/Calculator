@@ -11,36 +11,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/display/container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ccComponents/history/container.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/container.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/EqualCommand.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/EqualCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/EqualCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/NumberCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/NumberCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/SignCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/SignCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/calculator/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/calculator/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/display/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/display/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/history/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/history/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/ACCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ACCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/CCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Command.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Command.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/EqualCommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/NumberCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/NumberCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/PlusMinusCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/PlusMinusCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/SignCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/SignCommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/calculator/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/calculatorContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/display/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/displayContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/history/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/historyContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ccComponents/keypad/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/errorBoundary/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/errorBoundary/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/calculator/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/calculator/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/display/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/display/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/history/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/history/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/CommandResultEntity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommandResultEntity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ccPages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/settings/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/settingsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ccPages/settings/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/home/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/fcPages/settings/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/calculations/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/calculations/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/commands" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -88,17 +84,18 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_calculator\src\utils" />
+      <recent name="D:\my_calculator\src\commands" />
+      <recent name="D:\my_calculator\src\components\commands" />
+      <recent name="D:\my_calculator\src\components\ccComponents" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_calculator\src\containers" />
       <recent name="D:\my_calculator\src\pages\ccPages\settings" />
       <recent name="D:\my_calculator\src" />
       <recent name="D:\my_calculator" />
       <recent name="D:\my_calculator\src\store" />
-      <recent name="D:\my_calculator\src\components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my_calculator\src\commands" />
-      <recent name="D:\my_calculator\src\components\commands" />
-      <recent name="D:\my_calculator\src\components\ccComponents" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -143,7 +140,9 @@
       <workItem from="1668365987302" duration="5825000" />
       <workItem from="1668372527653" duration="1182000" />
       <workItem from="1668408475331" duration="8948000" />
-      <workItem from="1668417516033" duration="6756000" />
+      <workItem from="1668417516033" duration="20050000" />
+      <workItem from="1668591155255" duration="512000" />
+      <workItem from="1668591683071" duration="2068000" />
     </task>
     <servers />
   </component>

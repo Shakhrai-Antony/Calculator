@@ -1,8 +1,9 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import Layout from '@components/layout';
 import { clearHistory, setThemeStatus } from '@store/reducer';
+import { getCurrentTheme } from '@store/selectors';
 import { ClearHistory, Select, SettingsSection, Text, Title } from '@styles';
 
 const ControlPanelFC = () => {
@@ -11,6 +12,8 @@ const ControlPanelFC = () => {
   const handleChange = (e) => {
     dispatch(setThemeStatus(e.currentTarget.value));
   };
+
+  const defaultTheme = useSelector(getCurrentTheme);
 
   const handleClick = () => {
     dispatch(clearHistory());
@@ -24,14 +27,11 @@ const ControlPanelFC = () => {
         <form>
           <label>
             <Select
-              defaultValue=""
+              defaultValue={defaultTheme}
               onChange={handleChange}
               id="theme"
               name="theme"
             >
-              <option disabled hidden value="">
-                Choose Theme
-              </option>
               <option id="light_theme" value="light">
                 Light theme
               </option>

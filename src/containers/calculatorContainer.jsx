@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 
-import CalculatorCC from './index';
+import CalculatorCC from '../components/ccComponents/calculator';
 import { setExpression, setHistory, setResult } from '@store/reducer';
 import { getExpression, getResult } from '@store/selectors';
 

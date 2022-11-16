@@ -1,5 +1,5 @@
-import { CommandResultEntity } from "../entities/CommandResultEntity";
-import { Command } from "./Command";
+import { Command } from './Command';
+import { CommandResultEntity } from './CommandResultEntity';
 
 export class CCommand extends Command {
   constructor(expression) {
@@ -9,7 +9,7 @@ export class CCommand extends Command {
 
   execute() {
     return this.expression.length > 0
-      ? new CommandResultEntity(this.expression.slice(0, -1), "")
+      ? new CommandResultEntity(this.expression.slice(0, -1), '')
       : new CommandResultEntity(this.expression, 0);
   }
 }

@@ -22,12 +22,12 @@ export const devide = (operands, operatorIndex) => {
 };
 
 export const subtract = (operands, firstSymbol) =>
-  firstSymbol === "-"
+  firstSymbol === '-'
     ? -parseFloat(operands[0]) - parseFloat(operands[1])
     : parseFloat(operands[0]) - parseFloat(operands[1]);
 
 export const sum = (operands, firstSymbol) => {
-  if (firstSymbol === "-")
+  if (firstSymbol === '-')
     return -parseFloat(operands[0]) + parseFloat(operands[1]);
   if (!operands[1]) return operands[0];
   return parseFloat(operands[0]) + parseFloat(operands[1]);
@@ -38,14 +38,12 @@ export const calculateHighPriorityOperations = (expression, operation) => {
   // while expression include operation * or /
   while (expression.indexOf(operation) !== -1) {
     // split expression on digits
-    /* eslint-disable */
-    const operands = expression.split(/[*\/\-+]/);
+    const operands = expression.split(/[*/\-+]/);
     // get index of first operator * or /
-    /* eslint-disable */
-    const operatorIndex = expression.match(/[*\/\-+]/g).indexOf(operation);
+    const operatorIndex = expression.match(/[*/\-+]/g).indexOf(operation);
     // get result of operation with two close digits
     const result =
-      operation === "*"
+      operation === '*'
         ? multiply(operands, operatorIndex)
         : devide(operands, operatorIndex);
     // replace operation with two close digits with result
@@ -54,16 +52,16 @@ export const calculateHighPriorityOperations = (expression, operation) => {
           `${operands[operatorIndex]}${operation}${
             operands[operatorIndex + 1]
           }`,
-          result.toString()
+          result.toString(),
         ))
       : (expression = expression.replace(
           `${operands[operatorIndex]}${operation}-${
             operands[operatorIndex + 2]
           }`,
-          result.toString()
+          result.toString(),
         ));
-    expression = expression.replace("--", "+");
-    expression = expression.replace("+-", "-");
+    expression = expression.replace('--', '+');
+    expression = expression.replace('+-', '-');
   }
   return expression;
 };
@@ -73,20 +71,20 @@ export const calculateLowPriorityOperations = (expression) => {
   // while expression include operation - or + and expression is not digit
   while (expression.match(/[+-]/) && !+expression) {
     // first operands is negative ?
-    if (expression[0] === "-") {
+    if (expression[0] === '-') {
       // split expression on digits
       const operands = expression.slice(1).split(/[+-]/);
       // get first operator
       const operator = expression.slice(1).match(/[+-]/g)[0];
       // get result of operation with two first digits
       const result =
-        operator === "+"
+        operator === '+'
           ? sum(operands, expression[0])
           : subtract(operands, expression[0]);
       // replace operation with two first digits with result
       expression = expression.replace(
         expression[0] + operands[0] + operator + operands[1],
-        result.toString()
+        result.toString(),
       );
     } else {
       // split expression on digits
@@ -96,13 +94,13 @@ export const calculateLowPriorityOperations = (expression) => {
       // get result of operation with two first digits
 
       const result =
-        operator === "+"
+        operator === '+'
           ? sum(operands, expression[0])
           : subtract(operands, expression[0]);
       // replace operation with two first digits with result
       expression = expression.replace(
         operands[0] + operator + operands[1],
-        result.toString()
+        result.toString(),
       );
     }
   }
@@ -110,67 +108,67 @@ export const calculateLowPriorityOperations = (expression) => {
 };
 
 export const calculateScopes = (expression) => {
-  const secondScopeIndex = expression.indexOf(")");
+  const secondScopeIndex = expression.indexOf(')');
   const firstScopeIndex = expression
     .slice(0, secondScopeIndex)
-    .lastIndexOf("(");
+    .lastIndexOf('(');
   // get result of expression in scopes
   const result = calculate(
-    expression.slice(firstScopeIndex + 1, secondScopeIndex)
+    expression.slice(firstScopeIndex + 1, secondScopeIndex),
   );
   // replace expression in scopes with result
   expression = expression.replace(
     expression.slice(firstScopeIndex, secondScopeIndex + 1),
-    result
+    result,
   );
   return expression;
 };
 
 export const calculatePercent = (expression) => {
   while (expression.match(/[%]/)) {
-    const operands = expression.split("%");
+    const operands = expression.split('%');
     const operator = expression.slice(1).match(/%/g)[0];
     const result = parseFloat(operands[0]) % parseFloat(operands[1]);
     expression = expression.replace(
       operands[0] + operator + operands[1],
-      result.toString()
+      result.toString(),
     );
   }
   return expression;
 };
 
 export const replacePlusMinus = (expression) => {
-  let operands = expression.split(/([%*\/\-+=])/g).filter((item) => {
-    return item !== "";
+  let operands = expression.split(/([%*/\-+=])/g).filter((item) => {
+    return item !== '';
   });
   const lastNumber = operands.slice(-1)[0];
   if (expression.length === 1 && expression[0]) {
-    return expression.replace(expression, "-" + expression);
+    return expression.replace(expression, '-' + expression);
   }
-  if (expression[0] === "-") {
+  if (expression[0] === '-') {
     return expression.slice(1);
   }
   if (operands.length > 2) {
     if (
-      ["+", "*", "/"].indexOf(operands[operands.length - 2]) >= 0 &&
+      ['+', '*', '/'].indexOf(operands[operands.length - 2]) >= 0 &&
       lastNumber
     ) {
       operands = operands
         .slice(0, operands.length - 1)
-        .concat("-", lastNumber)
-        .join("");
+        .concat('-', lastNumber)
+        .join('');
       return expression.replace(expression, operands);
     }
-    if (operands[operands.length - 2] === "-") {
-      if (["+", "*", "/"].indexOf(operands[operands.length - 3]) >= 0) {
+    if (operands[operands.length - 2] === '-') {
+      if (['+', '*', '/'].indexOf(operands[operands.length - 3]) >= 0) {
         operands = operands
           .slice(0, operands.length - 2)
           .concat(lastNumber)
-          .join("");
+          .join('');
         return expression.replace(expression, operands);
       }
-      operands[operands.length - 2] = "+";
-      operands = operands.join("");
+      operands[operands.length - 2] = '+';
+      operands = operands.join('');
       return expression.replace(expression, operands);
     }
   }
@@ -181,8 +179,8 @@ export const calculate = (expression) => {
   while (expression.match(/[()]/)) {
     expression = calculateScopes(expression);
   }
-  expression = calculateHighPriorityOperations(expression, "*");
-  expression = calculateHighPriorityOperations(expression, "/");
+  expression = calculateHighPriorityOperations(expression, '*');
+  expression = calculateHighPriorityOperations(expression, '/');
   expression = calculateLowPriorityOperations(expression);
   expression = calculatePercent(expression);
   return expression;

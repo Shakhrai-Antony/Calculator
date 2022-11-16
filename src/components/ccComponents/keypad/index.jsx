@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { buttons } from '@components/fcComponents/keypad/config';
+import { buttons } from '@constants';
 import { Button, KeyPadWrapper } from '@styles';
 
 class KeypadCC extends React.Component {

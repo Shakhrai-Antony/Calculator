@@ -4,7 +4,7 @@ import React from 'react';
 import Layout from '@components/layout';
 import { ClearHistory, Select, SettingsSection, Text, Title } from '@styles';
 
-const ControlPanelCC = ({ resetHistory, changeTheme }) => {
+const ControlPanelCC = ({ resetHistory, changeTheme, theme }) => {
   const handleClick = () => {
     resetHistory();
   };
@@ -21,14 +21,11 @@ const ControlPanelCC = ({ resetHistory, changeTheme }) => {
         <form>
           <label>
             <Select
-              defaultValue=""
+              defaultValue={theme}
               onChange={handleChange}
               id="theme"
               name="theme"
             >
-              <option disabled hidden value="">
-                Choose Theme
-              </option>
               <option id="light_theme" value="light">
                 Light theme
               </option>
@@ -47,6 +44,7 @@ const ControlPanelCC = ({ resetHistory, changeTheme }) => {
 ControlPanelCC.propTypes = {
   resetHistory: PropTypes.func,
   changeTheme: PropTypes.func,
+  theme: PropTypes.string,
 };
 
 export default ControlPanelCC;

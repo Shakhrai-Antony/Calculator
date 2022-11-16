@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 
-import DisplayCC from './index';
+import DisplayCC from '../components/ccComponents/display';
 import { getExpression, getResult } from '@store/selectors';
 
 class DisplayContainer extends React.Component {

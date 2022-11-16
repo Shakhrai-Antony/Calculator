@@ -1,9 +1,9 @@
 import React from 'react';
 
-import CalculatorContainer from '@components/ccComponents/calculator/container';
-import DisplayContainer from '@components/ccComponents/display/container';
-import HistoryContainer from '@components/ccComponents/history/container';
 import Layout from '@components/layout';
+import CalculatorContainer from '@containers/calculatorContainer';
+import DisplayContainer from '@containers/displayContainer';
+import HistoryContainer from '@containers/historyContainer';
 import {
   CalculatorSection,
   DisplaySection,
