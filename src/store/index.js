@@ -1,16 +1,16 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { combineReducers } from "redux";
-import { persistReducer } from "redux-persist";
-import storage from "redux-persist/lib/storage";
+import { combineReducers } from 'redux';
+import { persistReducer } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
 
-import CalculatorReducer from "./reducer";
+import CalculatorReducer from './reducer';
+import { configureStore } from '@reduxjs/toolkit';
 
 const reducers = combineReducers({
   calculatorReducer: CalculatorReducer,
 });
 
 const persistConfig = {
-  key: "root",
+  key: 'root',
   storage,
 };
 

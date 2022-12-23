@@ -11,32 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/EqualCommand.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/ACCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ACCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/CCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/Command.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Command.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/EqualCommand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/NumberCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/NumberCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/PlusMinusCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/PlusMinusCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands/SignCommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/SignCommand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/calculator/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/calculatorContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/display/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/displayContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/history/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/historyContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ccComponents/keypad/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ccComponents/keypad/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fcComponents/keypad/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fcComponents/keypad/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/CommandResultEntity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommandResultEntity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/home/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/settings/container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/settingsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ccPages/settings/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ccPages/settings/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/fcPages/settings/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fcPages/settings/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/calculations/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/calculations/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +120,28 @@
       <workItem from="1668408475331" duration="8948000" />
       <workItem from="1668417516033" duration="20050000" />
       <workItem from="1668591155255" duration="512000" />
-      <workItem from="1668591683071" duration="2068000" />
+      <workItem from="1668591683071" duration="8106000" />
+      <workItem from="1668624609250" duration="21000" />
+      <workItem from="1668625068871" duration="790000" />
+      <workItem from="1668679469200" duration="5000" />
+      <workItem from="1668685277468" duration="6170000" />
+      <workItem from="1669012827366" duration="905000" />
+      <workItem from="1669209119172" duration="8122000" />
+      <workItem from="1669747316366" duration="3074000" />
+      <workItem from="1669800323016" duration="119000" />
+      <workItem from="1669963736810" duration="1567000" />
+      <workItem from="1670231902157" duration="10976000" />
+      <workItem from="1670828683533" duration="63000" />
+      <workItem from="1670870742371" duration="865000" />
+      <workItem from="1670940135877" duration="9631000" />
+      <workItem from="1671032479792" duration="964000" />
+      <workItem from="1671044209802" duration="7000" />
+      <workItem from="1671044266854" duration="16000" />
+      <workItem from="1671044336301" duration="5000" />
+      <workItem from="1671044422442" duration="33000" />
+      <workItem from="1671044521251" duration="902000" />
+      <workItem from="1671787201600" duration="314000" />
+      <workItem from="1671789262961" duration="342000" />
     </task>
     <servers />
   </component>
