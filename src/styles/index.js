@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom";
-import styled, { css } from "styled-components";
+import { NavLink } from 'react-router-dom';
+import styled, { css } from 'styled-components';
 
-import { lightTheme } from "../theme";
+import { lightTheme } from '../theme';
 
 export const StyledApp = styled.div`
   min-height: 100vh;
@@ -34,7 +34,7 @@ export const Link = styled(NavLink)`
   padding: 0;
   align-items: center;
   &:after {
-    content: "";
+    content: '';
     width: 0;
     height: 2px;
     display: block;

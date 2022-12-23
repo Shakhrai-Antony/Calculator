@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -62,18 +57,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my_calculator\src\utils" />
-      <recent name="D:\my_calculator\src\commands" />
-      <recent name="D:\my_calculator\src\components\commands" />
-      <recent name="D:\my_calculator\src\components\ccComponents" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\my_calculator\src\containers" />
       <recent name="D:\my_calculator\src\pages\ccPages\settings" />
       <recent name="D:\my_calculator\src" />
       <recent name="D:\my_calculator" />
       <recent name="D:\my_calculator\src\store" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my_calculator" />
+      <recent name="D:\my_calculator\src\utils" />
+      <recent name="D:\my_calculator\src\commands" />
+      <recent name="D:\my_calculator\src\components\commands" />
+      <recent name="D:\my_calculator\src\components\ccComponents" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -141,7 +137,7 @@
       <workItem from="1671044422442" duration="33000" />
       <workItem from="1671044521251" duration="902000" />
       <workItem from="1671787201600" duration="314000" />
-      <workItem from="1671789262961" duration="342000" />
+      <workItem from="1671789262961" duration="651000" />
     </task>
     <servers />
   </component>
