@@ -1,3 +1,5 @@
+import cypress from 'cypress';
+
 describe('App E2E', () => {
   it('h2 should have CalculatorReducer App', () => {
     cy.visit('/');

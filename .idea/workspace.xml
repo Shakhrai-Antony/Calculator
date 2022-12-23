@@ -13,6 +13,7 @@
     <list default="true" id="2672d79f-3496-4619-9c73-039fbcb6e59f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/integration/App.e2e.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/integration/App.e2e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/screenshots/App.e2e.js/An uncaught error was detected outside of a test (failed).png" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/screenshots/App.e2e.js/An uncaught error was detected outside of a test (failed).png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +141,7 @@
       <workItem from="1671044422442" duration="33000" />
       <workItem from="1671044521251" duration="902000" />
       <workItem from="1671787201600" duration="314000" />
-      <workItem from="1671789262961" duration="3543000" />
+      <workItem from="1671789262961" duration="4355000" />
     </task>
     <servers />
   </component>
